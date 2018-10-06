@@ -10,10 +10,20 @@ body {
 .cv-container {
   max-width: 1054px;
   margin: 20px auto;
+  background-color: #ffffff;
+  padding: 10px;
+  box-shadow: #8a8a8ad9 3px 3px 10px; 
 }
-
+.cv-photo {
+    float: left;
+    margin-right: 25px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 2px solid black;
+    padding: 5px;
+}
 .profile-header {
-  background-color: aqua;
+  
 }
 .cv-info-container {
   display: flex;
@@ -25,4 +35,8 @@ body {
 
 .cv-additional-info {
   flex-grow: 3;
+}
+ul li ul {
+    list-style: none;
+    padding: 5px 5px;
 }
